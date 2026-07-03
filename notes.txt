@@ -1,0 +1,15 @@
+cv2.imwrtie
+cv2.imread
+cv.2.waitKey(0)
+
+//image dimensions
+
+.shape gives us --> height , width , color channels
+h,w,c = image.shape
+
+//greyscale conversion
+
+we use cvt color , cvt color is used to convert image 
+
+//gray = cvt2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+cv.imshow('grayscale image',gray)
