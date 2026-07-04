@@ -19,4 +19,4 @@ cv2.imshow("edges", thres_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-#joh bhi pixel ki value 120 ki upar toh pura black hogya hai and vicecersa
+#joh bhi pixel ki value 120 ki upar toh pura bwhitelack hogya hai and vicecersa
