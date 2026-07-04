@@ -1,0 +1,17 @@
+counter is the curve joh ki jitne bhi continious points hotein hai jinme same intensity unm ko jod ke rakhta hai 
+
+we use cv2.findContours()
+contours , hierarchy = cv2.findContours(image,mode,method)
+
+
+YEH FUNCTION OUTPUT ME LIST DETA hai
+HAMESHA IMAGE BINARY B/W HNI CHIAYE USING CANNY OR THRESHOLD
+
+MODE BATATA HAI QUANTITY AND KIND OF COUNTOURS TOBE RETURNED  
+
+mode -- RETR_TREE  --SAB KUCH RETUN KRDEGA
+mode -- RETR_EXTERNAL  --SIRF OUTER SQUARE KO RETURN KREGA
+mode -- RETR_LIST --
+
+
+method -- batata hai how much detail should be returned for each contour
