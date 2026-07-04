@@ -12,4 +12,9 @@ kernel size hamesha odd number me hi diya jayega
 sigma is the intensity of the blur 
 normally if u give 0 value , OpenCV khud se decide karlega 
 
-kernel kya hai --
+
+median blur and guassian blur
+
+guassian blue me average of neightbour pixels use kiya jaata hai
+
+median blur meh middle value of neigthbour pxels
