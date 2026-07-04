@@ -1,0 +1,8 @@
+Haar cascades 
+
+haar cascades are developed to detect the face
+Haar cascades is the AI trained model , it is very fast , opensource
+
+requirements:
+webcam + OpenCV
+Haar XML file
