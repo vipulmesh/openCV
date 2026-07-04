@@ -1,0 +1,13 @@
+#noise is somthng , is called as unwanted part
+#smothng means to fix the roughness using the negihbour pixels 
+#kernel -- small square part 
+
+
+# guassian blur -- used to remvoe the noise , image smoothing , preprocessing 
+
+blurred_image = cv2.GauassianBlue(image,(kernal_size_x,kernel_size_y),sigma)
+
+kernel size hamesha odd number me hi diya jayega 
+
+sigma is the intensity of the blur 
+normally if u give 0 value , OpenCV khud se decide karlega 
