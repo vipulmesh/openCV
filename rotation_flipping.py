@@ -9,7 +9,7 @@
 import cv2
 image=cv2.imread("image.png")
 
-(h,w)=image.shape[:2]
+(h,w)=image.shape[:2]  #image.shape image ka size batata hai [:2] last me lagane se voh sirf height aur widdth retun krege color channel nahin
 center =(w//2,h//2)
 M=cv2.getRotationMatrix2D(center,90,1.0)
 rotated_image=cv2.warpAffine(image,M,(w,h))

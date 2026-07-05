@@ -27,9 +27,11 @@ cv.imshow('Eroded', eroded)
 
 #resize 
 reszied = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
+# interpolation -- Jab image ka size change hota hai, naye pixels ka color kaise calculate kiya jaye.
 cv.imshow('Resized', reszied)
 
 #cropping
 cropped = img[50:200, 200:400]
+#image[y1:y2, x1:x2]
 cv.imshow('Cropped', cropped)
 cv.waitKey(0)
